@@ -14,8 +14,8 @@ body{
 background: #FD6E0A;
 border: 0;
 color: #FFF;
-padding: 10px 20px;
-font-size: 20px;
+padding: 5px 15px;
+font-size: 18px;
 
 font-weight: 700;
 
@@ -26,6 +26,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 0 100px;
 }
 nav > ul{
     display: flex;
@@ -44,6 +45,17 @@ nav a{
 color: #181818;
 font-size: 45px;
 font-weight: 800;
-line-height: normal;
-}
 
+} 
+/* header related stle */
+.header{
+    background-color: #FFF8F3 ;
+}
+.banner{
+    padding: 30px 30px 20px 100px;
+    display: flex;
+    align-items: center;
+}
+.b_img{
+    width: 400px;
+}
