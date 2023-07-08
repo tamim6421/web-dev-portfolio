@@ -59,9 +59,11 @@ nav a {
 /* header related stle */
 .header {
     background-color: #FFF8F3;
-    background-image: url("port images/header_bg.png");
+    background-image: url("port images/header_bg.png"), url("port images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right,top left;
+    background-size: contain;
+    
 
 }
 
