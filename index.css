@@ -123,10 +123,24 @@ line-height: normal;
     padding-bottom: 20px;
     font-size: 40px;
 }
+
+/* skils related styls */
 #what_i_do{
     padding: 30px 150px;
 }
 
 .skill_containner{
-    
+    display: flex;
+
+}
+.skill{
+    padding: 30px;
+    gap: 30px;
+}
+.skill_img{
+    padding: 5px 3px 10px 0px
+
+}
+.skill_title{
+    padding: 5px 3px 10px 0px;
 }
