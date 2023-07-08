@@ -1,146 +1,223 @@
-*{
+* {
     margin: 0px;
-    padding:0px;
+    padding: 0px;
 }
-body{
+
+body {
     font-family: 'Open Sans', sans-serif;
 }
+main section{
+    margin-top: 130px;
+}
 /* shared styles  */
-.text-primary{
+.text-primary {
     color: #FD6E0A;
 }
-.btn_primary{
- border-radius: 5px;
-background: #FD6E0A;
-border: 0;
-color: #FFF;
-padding: 5px 15px;
-font-size: 18px;
 
-font-weight: 700;
+.btn_primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: #FFF;
+    padding: 5px 15px;
+    font-size: 18px;
+
+    font-weight: 700;
 
 }
 
 
-nav{
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 0 100px;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #474747;
 }
 
-.web-title{
-color: #181818;
-font-size: 45px;
-font-weight: 800;
+.web-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
 
-} 
+}
+
 /* header related stle */
-.header{
-    background-color: #FFF8F3 ;
+.header {
+    background-color: #FFF8F3;
     background-image: url("port images/header_bg.png");
     background-repeat: no-repeat;
     background-position: bottom right;
-    
+
 }
-.banner{
+
+.banner {
     padding: 80px 30px 0px 100px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-   
+
 }
-.b_gretting{
+
+.b_gretting {
 
     font-size: 45px;
     color: #474747;
     font-weight: 600;
-    
+
 }
 
-.b_img{
+.b_img {
     width: 400px;
 }
-.b_title{
-font-size: 85px;
-font-weight: 700;
-margin-bottom:5px;
+
+.b_title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 5px;
 
 }
-.b_pera{
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-max-width: 500px;
+
+.b_pera {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 500px;
 
 }
+
 /* main sections styles */
-main{ 
+main {
     max-width: 1140px;
     margin: 0 auto;
 
 }
-.about_info_container{
+
+.about_info_container {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
 .info_title {
     padding: 5px;
     margin: 13px;
 }
-.about_info{
+
+.about_info {
     text-align: center;
 }
+
 /* about section styles */
-.about{
- border-radius: 10px;
-background: #FFF8F3;
-padding: 130px;
-margin: 130px;
+.about {
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 130px;
+    margin: 130px;
 }
-.section_title{
-color:  #181818;
-text-align: center;
-font-size: 35px;
-font-weight: 700;
-line-height: normal;
+
+.section_title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
 }
-.section_title{
+
+.section_title {
     padding: 10px;
     padding-bottom: 20px;
     font-size: 40px;
 }
 
 /* skils related styls */
-#what_i_do{
+#what_i_do {
     padding: 30px 150px;
 }
 
-.skill_containner{
+.skill_containner {
     display: flex;
-
-}
-.skill{
-    padding: 30px;
     gap: 30px;
 }
-.skill_img{
-    padding: 5px 3px 10px 0px
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 
 }
-.skill_title{
+
+.skill_img {
+    padding: 5px 3px 10px 0px
+}
+
+.skill_title {
     padding: 5px 3px 10px 0px;
+}
+
+.skill_descrioption {
+    color: var(--dark-03, #757575);
+    
+    font-size: 16px;
+    
+    font-weight: 300;
+    line-height: 28px;
+}
+
+/* education section styles */
+.c_title{
+    color:  #474747;
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+.section_title{
+    margin:  50px 0;
+    font-size: 50px;
+}
+.resume_container{
+    display: flex;
+    gap: 50px;
+}
+.resume_container hr{
+    margin:  30px 0;
+}
+.r_i_desription{
+color: #757575;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+margin:  30px 0;
+}
+.r_i_title{
+ color:#474747;
+font-size: 25px;
+font-weight: 700;
+margin:  30px 0;
+
+}
+.r_i_institute{
+ color:#757575;
+font-size: 20px;
+font-weight: 600;
+
+}
+.downlode_cv{
+    text-align: center;
+    margin:  30px 0;
 }
